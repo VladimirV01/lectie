@@ -1,0 +1,16 @@
+Ce este git?
+- Distributed version control
+- Coordoneaza lucrul intre mai multi dezvoltatori
+- Cine, ce modificari a facut si cand
+- Revert back at any time (Intoarcere in orice moment la o versiune precedenta)
+- Repozitoriilor locale si remote
+
+Conceptul git:
+- Duce cont de istoria codului (fisierelor)
+- Face "fotografii" a fisierelor
+- Dezvoltatorul decide cand se face o "fotografie" prin crearea unui "commit"
+- Putem reincarca oricare "fotografie" la orice moment de timp
+- Putem decide ce fisiere se vor pastra si ce fisiere nu
+
+Comenzi:
+git init - Initializarea git-ului
