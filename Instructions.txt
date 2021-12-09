@@ -14,3 +14,20 @@ Conceptul git:
 
 Comenzi:
 git init - Initializarea git-ului
+git status - permite vizualizarea statutului fisierelor 
+git add <file> - permite adaugarea fisierelor care trebuie procesate
+git rm --cached - permite excluderea fisierelor din lista de commit
+git config --global user.email "email@example.com"
+git config -- global user.name "Nume"
+git commit -m "Text ce reprezinta o scurta descriere a commit-ului"
+git log - permite vizualizarea comiturilor facut pana la momentul actual
+git checkout <codul commit-ului> - permite intoarcerea la comitul selectat
+git diff <file> - permite vizualizarea diferentelor fisierului selectat cu versiunea precedenta
+git branch <branch name> - permite crearea unei noi ramuri
+git switch <branch name> - permite schimbarea ramurii pe care se lucreaza
+git merge <branch name> - permite combinarea ramurii slectate cu cea curenta
+git clone <adresaproiectului> - permite descarcarea proiectului de pe server
+git remote - permite vizulizarea leg[turii proiectului local cu vre-un server 
+git rmeote add origin <link-ul catre server> - permite legarea proiectului local cu un server git
+git push <remote> <ramura> - permit incarcarea comiturilor pe server
+git pull - face update la proiectul local pana la ultima versiune de pe server
